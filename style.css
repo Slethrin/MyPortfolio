@@ -1,0 +1,402 @@
+
+ 
+#header  {
+    
+    word-spacing: 7px;
+    text-align: center;
+    font-size: large;
+    height:48vh ;
+    opacity: 0.50 ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(1.jpg);
+    background-attachment: fixed;
+}
+
+/* sjdckl */
+
+.bars{
+    color: white;
+    margin: 0;
+    margin-right: 5%;
+    display: none;
+    position:absolute;
+    left:80%;
+}
+
+.bars i {
+    font-size: 2.1rem;
+}
+
+.dropdown-list{
+    margin: 0;
+    display: none;
+    background-color: #96978e;
+    box-shadow: 0px 4px 8px 1px #dedfdb;
+}
+
+.dropdown-list ul{
+    margin: 0.2rem 0.2rem;
+    text-align: left;
+    padding: 0px 0.8rem;
+}
+
+.dropdown-menu:hover .dropdown-list{
+    display: block;
+    position: absolute;
+    right: 3%;
+}
+
+.dropdown-list li{
+    margin: 0.4rem 0px;
+}
+
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+/* uhds */
+h1{  
+    font-size: xx-large;
+    font-weight: 1000px;
+    text-decoration: solid;
+    text-align: center;
+    color: #190701b0;
+}
+#name{
+    margin-top: 80px;
+}
+.social ul{
+    color:rgb(71, 67, 67) ;
+    list-style: none;
+    padding-left: 0px;
+}
+.social li {
+    display: inline-block;
+    margin: 5px;
+}
+.social li a i { 
+    color: grey;
+    border-radius: 50px; }
+ .social li a i:hover { 
+ box-shadow: 0px 0px 6px 4px lightskyblue ;
+}
+
+section{
+    width: 100%;
+    height:90vh ;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+.section-heading{
+    width: auto;
+    
+    padding:20px 10px 10px ;
+    font-weight:400 ;
+}
+.section-heading span{
+    font-size: 40px ;
+    color: blue;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+section:nth-child(2n+1){
+background-color:#b4b1b129 ;
+}
+section:nth-child(2n){
+    background-color: white;
+    }
+#about {
+    height: 200%;
+ width:100% ;
+    position: relative;
+}
+#photo {
+    height:12rem ;
+    width:12rem ;
+    margin:auto  ;
+    margin-top: -13vh; 
+}
+#photo img{
+    height: 100%;
+    width:100% ;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px rgb(135, 250, 244);
+}
+#desc{
+    padding: 60px;
+    height: 100%;
+    width:60% ;
+    text-align: justify;
+    margin: auto;
+    line-height: 28px;
+    color: rgb(104, 102, 102);
+    font-weight: 100px;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* skill */
+#Skills {
+    height:100%;
+}
+.skill{
+    height:40%;
+    width:60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.nkn{   
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+.ska span {
+    margin-left: 10px;
+    color: white;
+    font-weight:1rem;
+    vertical-align:middle;
+}
+.nkn>div{
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+/* border-radius:20px 0px 0px 20px; */
+}
+
+.mb75px{
+    margin-bottom:80 px ;
+}
+.mbblu{
+    width:90% ; 
+    background-color: rgb(55, 55, 232);
+}
+.mborg {
+    width:70% ; 
+    background-color: orange;
+}
+.mbcol{
+    width:60% ; 
+    background-color: rgb(55, 214, 232);
+}
+.mbcm{
+    width:72% ; 
+    background-color: rgb(120, 55, 232);
+}
+.meter  { 
+       height:inherit;
+ }
+
+ /* Experience */
+
+ #Experience {
+    height: 100%;
+    
+ }
+ #Education{
+    height: 100%;
+    margin:10px;
+ }
+ .dabbas{
+    margin-top: -25px;
+    position: relative;
+    width:75% ;
+ }
+.dabba {
+position: relative;
+width:40% ;
+padding: 5px;
+left:4.4% ;
+min-height:150px ; 
+}
+
+.dabba::after{
+    content:'' ;
+    position:absolute ;
+    top:25% ;
+    border-radius: 50%;
+     width:10px ;
+     height:10px;
+     background-color: red;
+     z-index: 1;
+}
+.dabba:nth-child(2n){
+    left:53% ;
+    }
+    .dabba:nth-child(2n+1)::after{
+        right:-12.1%;
+    }
+.dabba:nth-child(2n)::after{
+    left:-8.3%;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 40px;
+    overflow: hidden;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+.divider{
+    position: absolute;
+    height:67%;
+    width:0;
+    border: 3px dashed rgb(161, 223, 235); 
+    top:10%;
+    left:50%;
+}
+
+.divimg{
+    position:sticky;
+    height:15px;
+    top:25%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.des {
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: right;
+}
+.com {
+    margin: 0;
+    color: #eb822d;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: right;
+}
+.mon {
+    color: black;
+    font-weight: 60;
+    font-size: 0.9rem;
+    margin: 0;
+    opacity: 0.7;
+    text-align: right;
+}
+.para{
+    font-size: 13px;
+    padding: 2px;
+    color: black;
+    font-family: sans-serif;
+    line-height: 15px;
+    opacity:0.8 ;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    /* text-align: auto; */
+}
+
+/* contact */
+#contact{
+    background-image: linear-gradient(to top right, #2857a4, #403066);
+    height:70vh;
+}
+.box{
+    width:100%;
+    min-width: 725px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  /* font-size: 1.25em;   */
+}
+.box1{
+    flex-basis: 40%;
+    overflow-x: hidden;
+    width:50% ;
+    position:relative;
+    /* right:23%; */
+}
+.box1 .Input {
+    width: 100%;
+  margin-bottom: .8rem;
+  padding-left: 1rem;
+  border: none;
+  height: 2.5rem;
+  font-size: 0.8em;
+  color: white;
+  border-bottom: 2px solid white;
+  background-color: #0000;
+  
+}
+textarea .Input{
+   height:4rem ;
+   font-size: 0.8rem;
+   resize:none ;
+}
+.Input:focus{
+    
+  border-bottom: 3px solid #bebebe;
+}
+#submit {
+    background: none;
+    display: block;
+    margin: 2rem auto;
+    font-size: 0.75em;
+    border:2px solid white ;
+    padding: 0.5rem 1rem;
+    /* text-decoration: n; */
+    }
+    .box2{
+        width:50%; 
+         flex-basis: 45%;
+        overflow-x: hidden;
+    margin-top: 0rem;
+    }
+    .box2 h2 ,.box2 div{
+        margin: 0.8rem 0 ; 
+    }
+    .box2 div, .box2 p{
+        font-size: 0.8rem;
+    }
+   .social{
+    transform: scale(1.5);
+position:relative;
+flex: auto;
+/* top:-100%; */
+}
+  
