@@ -31,7 +31,7 @@
 .dropdown-list{
     margin: 0;
     display: none;
-    background-color: #96978e;
+    background-color: #8d908a;
     box-shadow: 0px 4px 8px 1px #dedfdb;
 }
 
@@ -62,7 +62,7 @@
 
 .no-list-style li a{
     list-style: none;
-    color: white;
+    color: rgb(25, 33, 68);
     text-decoration: none;
 }
 
@@ -108,7 +108,7 @@ h1{
     margin: 5px;
 }
 .social li a i { 
-    color: grey;
+    color: rgb(4, 76, 39);
     border-radius: 50px; }
  .social li a i:hover { 
  box-shadow: 0px 0px 6px 4px lightskyblue ;
