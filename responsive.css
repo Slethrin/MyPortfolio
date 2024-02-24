@@ -1,50 +1,57 @@
-@media only screen and (max-width: 572px){
+/* For screens up to 572px wide */
+@media only screen and (max-width: 572px) {
     .dabba {
         width: 90%;
-        left: 10% !important;
+        left: 5%;
     }
+
     .bars {
         display: block;
     }
-    
-    
+
     .nav-menu {
         display: none;
-    } 
-    
+    }
 }
-    @media only screen and (max-width: 768px){
-    section .Skill{
-          height:100px !important; 
- 
-     }
-     .dabba {
-         width: 90%;
-         left: 10% !important;
-     }
- 
-     .dabba::after {
-         left: -9.3% !important;
-     }
- 
-     .divider {
-         top: 10%;
-         left: 2% !important;
-     }
-     .box1 {
-         margin-left: 0%;
-     }
- #contact{
-     height:100% !important;
- }
-     .box{
-         flex-wrap: wrap;
-     }
- 
-     .box2 {
-         width: 80%;
-         margin: 10%;
-         margin-top:0%;
-         margin-bottom: 0%;
-     }
- }
+
+/* For screens up to 768px wide */
+@media only screen and (max-width: 768px) {
+    section.Skill {
+        height: auto;
+    }
+    section {
+        height: auto;
+    }
+
+    .dabba {
+        width: 90%;
+        left: 5%;
+    }
+
+    .dabba::after {
+        left: -5%;
+    }
+
+    .divider {
+        top: 10%;
+        left: 2%;
+    }
+
+    .box1 {
+        margin-left: 0%;
+    }
+
+    #contact {
+        height: auto;
+        padding: 20px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+    }
+
+    .box2 {
+        width: 90%;
+        margin: 5% auto;
+    }
+}
